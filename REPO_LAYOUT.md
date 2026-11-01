@@ -18,7 +18,7 @@
 | `nb-pkg` | PC 端校验/生成/取载荷工具、打包规范实现 | 任何应用或载荷 |
 | `toolchain` | 交叉编译器包装、SDK 头文件/运行时/链接脚本、构建模板、API 示例 | 应用、包清单 |
 | `prime-tcc` / `prime-lua` / `nb-manager` | 各自源码 + `package/<name>-<ver>/` 清单 | 其他应用的包 |
-| 大型应用仓库（prime-code、prime-markdown） | 应用源码与发布 | 索引里的其他包 |
+| 大型应用仓库（prime-code、prime-markdown、nb-code） | 应用源码与发布 | 索引里的其他包 |
 | `examples/` | 教学用 `.hpappdir`（兼容形态） | 参与版本管理 |
 
 ## 仍在迁移中
