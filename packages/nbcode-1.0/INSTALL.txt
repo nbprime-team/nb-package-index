@@ -1,0 +1,22 @@
+nbCode 1.0 -- a code editor for the HP Prime G1
+
+COPY THIS FOLDER TO THE CALCULATOR:
+    nbCode.hpappdir  ->  C:\DATA\nbCode.hpappdir\
+
+(The Connectivity Kit copies folders into C:\DATA; the folder name must keep
+the .hpappdir suffix.)
+
+RUN IT:
+    On the calculator:  Applications -> nbCode -> main.py
+    Or from the MicroPython app:
+        import main
+        main.run()
+
+    The start screen lists workspaces; ENTER opens one, ENTER on a file opens it
+    in the editor.  ON quits.  The full key map is in nbCode.md.
+
+SETTINGS:  nbCode.hpappdir\setting.json (theme, tab_width, language, workspaces)
+LOG:       nbCode.hpappdir\nbcode.log is written on every run; if the editor ever
+           fails to start, that file says what it got to.
+
+Image: 561648 bytes, sha256 8c05ade91f1b3464
